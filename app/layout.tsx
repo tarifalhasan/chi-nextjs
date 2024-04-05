@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
+import { neuemachina, pixel } from "./font";
 import "./globals.css";
 
 const jet = JetBrains_Mono({ subsets: ["latin"], variable: "--jet" });
@@ -16,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={jet.className}>{children}</body>
+      <body
+        className={`${pixel.variable} ${neuemachina.variable} ${jet.variable} font-jet`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

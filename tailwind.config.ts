@@ -16,6 +16,11 @@ const config: Config = {
           primary: "#FFF500",
         },
       },
+      fontFamily: {
+        jet: "var(---jet)",
+        neuemachina: "var(--neuemachina)",
+        pixel: "var(--pixel)",
+      },
     },
   },
   plugins: [],

@@ -5,12 +5,12 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <header className="flex  fixed left-0 right-0 top-0 items-center justify-between px-8 py-5 mx-auto">
+    <header className="flex z-50  fixed left-0 right-0 top-0 items-center justify-between px-8 py-5 mx-auto">
       <div>
         <Image src={"/logo.svg"} alt="chi-logo" width={112} height={26} />
       </div>
       <ul className="flex items-center">
-        <li className=" px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500">
+        <li className=" font-jet px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500">
           <Link href={"/"}>Home</Link>
         </li>
         <li className=" px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500">
