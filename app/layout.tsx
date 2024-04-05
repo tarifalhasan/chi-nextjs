@@ -3,7 +3,11 @@ import { JetBrains_Mono } from "next/font/google";
 import { neuemachina, pixel } from "./font";
 import "./globals.css";
 
-const jet = JetBrains_Mono({ subsets: ["latin"], variable: "--jet" });
+const jet = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--jet",
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
