@@ -13,7 +13,7 @@ export const neuemachina = localFont({
 export const pixel = localFont({
   src: [
     {
-      path: "./font/Trafika Sans Regular.otf",
+      path: "./font/PexelGrotesk-Regular.ttf",
       weight: "400",
       style: "normal",
     },

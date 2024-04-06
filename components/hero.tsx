@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" min-h-screen relative overflow-hidden bg-hero bg-cover bg-center flex items-center flex-col justify-center">
-      <div className="  px-4 container w-full mx-auto">
+    <div className="  min-h-screen relative overflow-hidden bg-hero bg-cover bg-center flex items-center flex-col justify-center">
+      <div className=" py-20  px-4 container w-full mx-auto">
         <div className=" space-y-5">
           <div className=" flex  items-center ">
             <div>
