@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { neuemachina, pixel } from "./font";
 import "./globals.css";
-
+import "./style.css";
 const jet = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--jet",

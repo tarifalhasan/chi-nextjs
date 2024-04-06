@@ -13,7 +13,7 @@ export const neuemachina = localFont({
 export const pixel = localFont({
   src: [
     {
-      path: "./font/trafika_sans_regular-webfont.woff2",
+      path: "./font/Trafika Sans Regular.otf",
       weight: "400",
       style: "normal",
     },

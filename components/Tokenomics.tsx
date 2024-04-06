@@ -8,7 +8,7 @@ const Tokenomics = () => {
           Tokenomics
         </h3>
       </div>
-      <div className="">
+      <div className=" lg:-mt-[8%]">
         <Image
           src={"/tokenomice.png"}
           alt=""
