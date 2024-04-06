@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "CHI NFT",
   description:
     "In the realm where energies converge, CHI breathes,A force unseen, in the cosmic weave.",
+  icons: "/Exclude.svg",
 };
 
 export default function RootLayout({
