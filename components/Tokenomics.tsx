@@ -10,18 +10,20 @@ const Tokenomics = () => {
       </div>
       <div className=" lg:-mt-[8%]">
         <Image
-          src={"/tokenomice.png"}
+          src={"/tokenomice.webp"}
           alt=""
           width={1440}
           height={1035}
           className=" w-full h-auto  hidden lg:block"
+          quality={80}
         />
         <Image
-          src={"/tokenomice-mobile.png"}
+          src={"/tokenomice-mobile.webp"}
           alt=""
           width={470}
           height={872}
           className=" w-full h-auto  lg:hidden"
+          quality={80}
         />
       </div>
     </div>

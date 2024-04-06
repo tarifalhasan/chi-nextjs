@@ -47,14 +47,14 @@ const Hero = () => {
         <div className=" pt-12">
           <Image
             className=" hidden lg:block z-10 lg:max-w-[550px] xl:max-w-[650px] 2xl:max-w-[1000px] w-full lg:absolute lg:top-1/2  lg:-translate-y-1/2 right-0"
-            src={"/hero_.png"}
+            src={"/hero_.webp"}
             alt="gherdknvd"
             width={788}
             height={501}
           />
 
           <Image
-            src={"/hero_mobiel.png"}
+            src={"/hero_mobiel.webp"}
             width={675}
             height={439}
             alt="dfd"
