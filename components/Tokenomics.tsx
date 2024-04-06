@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Tokenomics = () => {
   return (
-    <div className=" py-6">
+    <div className=" py-6 lg:py-16 xl:py-5">
       <div className="">
         <h3 className=" text-center text-2xl md:text-6xl font-pixel">
           Tokenomics

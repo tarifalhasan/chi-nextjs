@@ -55,23 +55,38 @@ const Header = () => {
       </div>
       {isOpenMenu && (
         <ul className=" flex flex-col items-center gap-y-4">
-          <li className=" font-jet px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500">
+          <li
+            onClick={() => setIsOpenMenu(false)}
+            className=" font-jet px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500"
+          >
             <Link href={"/"}>Home</Link>
           </li>
-          <li className=" px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500">
+          <li
+            onClick={() => setIsOpenMenu(false)}
+            className=" px-5 text-sm font-normal hover:text-skin-primary  transition-all duration-500"
+          >
             <Link href={"/"}>Mint</Link>
           </li>
-          <li className="text-sm font-normal hover:text-skin-primary  transition-all duration-500">
+          <li
+            onClick={() => setIsOpenMenu(false)}
+            className="text-sm font-normal hover:text-skin-primary  transition-all duration-500"
+          >
             <Link target="_blank" href={"/"}>
               <FaTelegram className=" w-5 h-5" />
             </Link>
           </li>
-          <li className="text-sm font-normal hover:text-skin-primary  transition-all duration-500">
+          <li
+            onClick={() => setIsOpenMenu(false)}
+            className="text-sm font-normal hover:text-skin-primary  transition-all duration-500"
+          >
             <Link target="_blank" href={"/"}>
               <FaXTwitter className=" w-5 h-5" />
             </Link>
           </li>
-          <li className="text-sm font-normal hover:text-skin-primary  transition-all duration-500">
+          <li
+            onClick={() => setIsOpenMenu(false)}
+            className="text-sm font-normal hover:text-skin-primary  transition-all duration-500"
+          >
             <Link target="_blank" href={"/"}>
               <FaDiscord className=" w-6 h-6" />
             </Link>
