@@ -51,14 +51,14 @@ const Footer = () => {
             fill="#FFF500"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M10.3827 0L21.314 7.30174L19.2099 10.4344L10.3012 4.48367L4.59189 8.00547V17.0676L12.9486 22.3083L10.9359 25.5001L0.811035 19.1505V5.90426L10.3827 0Z"
             fill="#FFF500"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M10.9313 35.5112L-5.72205e-05 28.2095L2.10402 25.0769L11.0127 31.0276L16.7221 27.5058V18.4437L8.36536 13.2029L10.3781 10.0111L20.5029 16.3607V29.607L10.9313 35.5112Z"
             fill="#FFF500"
           />
