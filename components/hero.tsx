@@ -21,20 +21,24 @@ const Hero = () => {
             </div>
           </div>
           <div className=" space-y-3 pl-4 max-w-[604px]">
-            <h4 className=" text-center sm:text-left text-5xl font-normal text-skin-primary font-neuemachina">
+            <h2 className=" text-center sm:text-left text-5xl font-normal text-skin-primary font-neuemachina">
               collection
-            </h4>
-            <h5 className=" text-center sm:text-left text-lg md:text-xl font-normal text-white font-jet">
+            </h2>
+            <p className=" text-center sm:text-left text-lg md:text-xl font-normal text-white font-jet">
               In the realm where energies converge, CHI breathes,A force unseen,
               in the cosmic weave.
-            </h5>
+            </p>
 
             <p className=":text-left text-xs sm:text-sm font-jet font-normal">
               Through the silence, spirits achieve,The essence of CHI, <br />{" "}
               for those who believe.
             </p>
             <div className=" pt-[25px]   lg:pt-[20px]">
-              <button className=" w-full lg:w-auto text-black  items-center justify-center h-[42px] px-6 inline-flex hover:bg-skin-primary/80 bg-skin-primary">
+              <button
+                id="mint"
+                aria-label="mint"
+                className=" w-full lg:w-auto text-black  items-center justify-center h-[42px] px-6 inline-flex hover:bg-skin-primary/80 bg-skin-primary"
+              >
                 Mint now
               </button>
             </div>

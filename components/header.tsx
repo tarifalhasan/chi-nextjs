@@ -41,6 +41,8 @@ const Header = () => {
           </li>
         </ul>
         <button
+          id="open-menu"
+          aria-label="open-menu"
           onClick={() => setIsOpenMenu((prev) => !prev)}
           className=" sm:hidden"
         >
